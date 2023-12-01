@@ -1,0 +1,16 @@
+@import "../../scss/index.scss";
+
+.pol-datos{
+    padding: 1.12vw 1.69vw;
+    min-height: 30rem;
+    h1{
+        color: $azulPrincipal;
+        position: relative;
+        text-align: center;
+        margin-top: 1.1875rem;
+    }
+    iframe{        
+        width: 100%;
+        height: 60vh;
+    }
+}

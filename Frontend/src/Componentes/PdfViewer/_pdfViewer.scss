@@ -1,0 +1,54 @@
+@import "../../scss/_colors.scss";
+
+.rctPdf{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px $azulPrincipal;
+}
+
+.pagesContainer {
+    display: flex;
+    position: relative;
+}
+
+.pagePdf{
+    flex: 1;
+    box-shadow: 0px 0px 10px black;
+    canvas{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+.hide-outline{
+    display: none;
+}
+
+.nextPdf, .prevPdf {
+    font-size: 1.875rem;
+    position: absolute;
+    top: 50%;
+    border-style: none;
+    color: transparent;
+    background-color: transparent;
+    transition: 300ms;
+}
+
+.nextPdf{
+    right: 0;
+}
+
+.rctPdf:hover{
+    .nextPdf, .prevPdf {
+        color: $grisPrincipal;
+    }
+}
+
+.rctPdf .nextPdf:hover {
+    color: $amarilloPrincipal;
+}
+
+.rctPdf .prevPdf:hover {
+    color: $amarilloPrincipal;
+}

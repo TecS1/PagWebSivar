@@ -1,0 +1,120 @@
+@import "../../scss/colors";
+@import "../../scss/mediaQueries";
+
+.inicio{
+    padding: 1.12vw 3.69vw;
+}
+
+.caja-video{
+    flex: 1;
+    width: 58.3333333%;
+}
+
+.btn-catalogo1{
+    border-radius: 7rem;
+    background-color: rgba($color: $azulPrincipal, $alpha: 0.8);
+    box-shadow: 10px 10px 20px black;
+    height: auto;
+    overflow: hidden;
+    a{
+        text-decoration: none;
+        font-size: 2.025rem;
+        span{
+            color: $amarilloPrincipal;
+        }
+        h1{
+            margin-left: 25px;
+        }
+    }
+    img{
+        width: 29%;
+        height: auto;
+    }
+}
+
+.avi{
+    background-color: $azulPrincipal;
+}
+
+.avi .col{
+    color: $blancoPrincipal;
+    font-size: 2.025rem;
+    span{
+        color: $amarilloPrincipal;
+    }
+    p{
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.c-categ{
+    width: 30%;
+    height: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    img{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 200ms;
+    }
+}
+
+.c-categ img:hover{
+    transform: scale(1.01, 1.01);
+    transition: 200ms;
+    box-shadow: 0.01rem 0.01rem 1.5rem 0.3rem currentColor;
+}
+
+#categorias{
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .btn-catalogo1{
+        a{
+            h1{
+                margin-top: 6px;
+                margin-left: 0px;
+                font-size: 62%;
+            }
+        }        
+    }
+      
+}
+
+@include tablet{
+    //cuadrar letra del aviso "eres ferretero..."
+}
+
+@include mobile{
+    #carrusel2{
+        display: none;
+    }
+
+    .avi .col{
+        font-size: 1.5625rem;
+    }
+
+    .btn-catalogo1{
+        display: none;
+    }
+
+    .row.py-3.gx-4{
+        padding: 0 20px;
+    }
+
+    .caja-video{
+        order: -1;
+        flex: auto;
+    }
+
+    .col-5.caja-carrusel{
+        width: 100%;
+    }
+
+    .c-categ{
+        width: 100%;
+    }
+}

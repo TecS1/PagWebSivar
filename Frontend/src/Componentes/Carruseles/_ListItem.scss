@@ -1,0 +1,63 @@
+@import "../../scss/_colors.scss";
+
+.descFont{
+    font-size: 1.1875rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.codigo {
+    font: -webkit-control;
+}
+
+.codFont{
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.caja{
+    height: 100%;
+    width: 14%;
+    min-width: 14%;
+    cursor: pointer;
+    margin: 0 3% 0 3%;
+    padding: 2%;
+    background-color: $blancoPrincipal;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.0625rem;
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem gray;
+    transition: 200ms;
+    .col{
+        height: auto;
+    }
+}
+
+.imgModal {
+    display: flex;
+    justify-content: center;
+}
+
+.imgProducto img{
+    width: 100%;
+    height: auto;
+}
+
+.caja:hover{
+    //width: 14rem;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0.2rem 0.2rem 0.2rem $azulPrincipal;
+    transition: 200ms;
+}
+
+@media (max-width: 636px){
+    .caja{
+        min-width: 44%;
+        margin: 0 28% 0 28%;
+        padding: 4%;
+
+    }
+}

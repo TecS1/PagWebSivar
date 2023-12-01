@@ -1,0 +1,35 @@
+@import "../../scss/colors.scss";
+@import "../../scss/mediaQueries.scss";
+
+.about{
+    position: relative;
+    padding: 1.12vw 70px;
+    min-height: 71.98vh;
+}
+
+.log-anima{
+    width: 30%;
+    margin: 0px auto;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.qSomos{
+    position: relative;
+    h1{
+        color: $azulPrincipal;
+        position: relative;
+        text-align: center;
+        margin-bottom: 1.1875rem;
+    }
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+/*@include tablet{
+    .about{
+        min-height: 51.9rem;
+    }
+}*/

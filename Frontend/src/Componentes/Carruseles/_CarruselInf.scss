@@ -1,0 +1,55 @@
+@import "../../scss/_colors.scss";
+
+.cCarrusel{
+    width: 100%;
+    height: auto;//alto fijo jaska
+    position: relative;
+    overflow: hidden;
+}
+
+#pContainer{//contiene cada item
+    position: relative;
+    left: 0%;
+    align-items: center;
+}
+
+#leftButton{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 41%;
+    border-style: none;
+    color: transparent;
+    background-color: transparent;
+    transition: 300ms;
+}
+
+#rightButton{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 41%;
+    border-style: none;
+    color: transparent;
+    background-color: transparent;
+    transition: 300ms;
+}
+
+.cCarrusel:hover{
+    #leftButton{
+        color: $grisPrincipal;
+    }
+    
+    #rightButton{
+        color: $grisPrincipal;
+    }
+}
+
+.cCarrusel #rightButton:hover{
+    color: $amarilloPrincipal;
+}
+
+.cCarrusel #leftButton:hover{
+    color: $amarilloPrincipal;
+}
+

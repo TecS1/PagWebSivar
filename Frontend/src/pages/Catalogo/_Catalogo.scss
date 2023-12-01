@@ -1,0 +1,13 @@
+@import '../../scss/mediaQueries';
+
+.catalogo{
+    position: relative;
+    min-height: 26rem;
+    padding: 0px 12px;
+}
+
+.col.pdfViewer {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem 0rem;
+}

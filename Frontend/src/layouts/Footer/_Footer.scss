@@ -1,0 +1,72 @@
+@import '../../scss/colors';
+@import '../../scss/mediaQueries';
+
+*{
+    box-sizing: border-box;
+}
+
+.piePagina {
+    min-height: 100%;
+    display: block;
+    background-color: $azulPrincipal;
+    color: $blancoPrincipal;
+    font-size: 19px;
+    a{
+        color: $blancoPrincipal;
+        text-decoration: none;
+        --bs-link-hover-color: #F2CB05;
+    }
+}
+
+.row h5{
+    padding-left: 0;
+}
+
+.logoF{
+    width: 75%;
+    img{
+        width: 95%;
+        height: auto;
+    }
+}
+
+.piePagina .col{
+    width: 30%;
+    height: 100%;
+}
+
+.redes{
+    color: $blancoPrincipal;
+}
+
+.redes .col-4{
+    width: auto;
+    padding: 0;
+    margin-right: 4%;
+}
+
+.redes a{
+    color: $blancoPrincipal;
+}
+
+.redes a:hover{
+    color: $amarilloPrincipal;
+}
+
+@include mobile{
+
+    .piePagina .row.g-0{
+        display: block;
+        text-align: center;
+    }
+
+    .redes{
+        display: flex !important;
+        justify-content: center;
+    }
+    .piePagina .col{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+

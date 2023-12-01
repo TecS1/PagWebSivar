@@ -1,0 +1,55 @@
+@import '../../scss/colors';
+@import '../../scss/mediaQueries';
+
+.lstStylN{
+    list-style: none;
+}
+
+.menu-mob{
+    background-color: rgba($color: $azulPrincipal, $alpha: 0.6);
+    border-radius: 2rem;
+    width: 3.654rem;
+    position: fixed;
+    bottom: 6rem;
+    right: 1.0625rem;
+    z-index: 3;
+    visibility: hidden;
+    //input{}
+    label, .logoCatalogo{
+        width: 100%;
+    }
+}
+
+.items-menu-mob{
+    width: 90%;
+    margin: -46px 3.2px;
+    padding: 7px;
+    border: 2px solid #193773;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 500ms ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+.logoCatMob{
+    width: 100%;
+}
+
+#logoCat{
+    display: none;
+}
+
+#logoCat:checked ~ * .items-menu-mob{
+    margin: 2px 3.2px;
+    opacity: 1;
+    visibility: visible;
+}
+
+@include tablet{
+    .menu-mob{
+        visibility: visible;
+    }
+}

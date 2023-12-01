@@ -1,0 +1,90 @@
+@import "../../scss/colors";
+@import "../../scss/mediaQueries";
+
+.container-menu{
+    position: fixed;
+    top: 20vh;
+    z-index: 3;
+}
+
+.menu-category{
+    overflow: hidden;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.19rem;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-radius: 0rem 3rem 3rem 0rem;
+    max-width: 66px;
+}
+
+.logoMenuCat{
+    width: 36.34px;
+}
+
+.lista-cat{
+    margin-top: 1rem;
+    padding-left: 0.6rem;
+    list-style: none;
+    white-space: nowrap;
+    a{
+        text-decoration: none;
+    }
+    span{
+        position: relative;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin: 0rem 1.3rem;
+        color: black;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin: 10px 0px;
+        height: 53.55px;
+    }
+    li:before{
+        width: 0px;
+        height: 55px;
+        content: "";
+        display: block;
+        background: currentColor 50%;
+        position: absolute;
+        transition: 500ms;
+        left: 50px;
+        cursor: pointer;
+    }
+    li:hover img{
+        transform: scale(1.2);
+    }
+    li:hover:before{
+       width: 120px;
+       transition: 500ms
+    }
+}
+
+.menu-button{
+    background-color: $amarilloPrincipal;
+    width: auto;
+    padding: 10px 0px;
+    position: absolute;
+    top: 50%;
+    left: 100%;//82px;//182
+    border-style: solid solid solid none;
+    border-width: 0.18rem;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-radius: 0rem 2rem 2rem 0rem;
+    transition: 1s;
+
+}
+
+.menu-button-anima::before{
+    transform: rotate(180deg);
+}
+
+@include tablet{
+    .container-menu{
+        display: none;
+    }
+}
+

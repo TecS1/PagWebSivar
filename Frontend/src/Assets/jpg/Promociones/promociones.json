@@ -1,0 +1,10 @@
+[
+    {
+        "cod" : "promoTronex",
+        "descripcion" : "promocion tronex"
+    },
+    {
+        "cod" : "promoSuperBonder",
+        "descripcion" : "promocion Super bonder"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id" : "1",
+        "cod" : "BIS11",
+        "descripcion" : "Bisagra parche",
+        "descripcionCompleta" : "Bisagra ideal para muebles de baños, cocinas, clósets, entre otras"
+    },
+    {
+        "id" : "2",
+        "cod" : "BIS12",
+        "descripcion" : "Bisagra Semiparche",
+        "descripcionCompleta" : "Bisagra ideal para muebles de baños, cocinas, clósets, entre otras"
+    },
+    {
+        "id" : "3",
+        "cod" : "PDA11",
+        "descripcion" : "Pie de amigo reforzado",
+        "descripcionCompleta" : "Pie de amigo 10 x 10 reforzado color blanco"
+    },
+    {
+        "id" : "4",
+        "cod" : "TNC25",
+        "descripcion" : "Motoreductor",
+        "descripcionCompleta" : "Motoreductor doble eje"
+    },
+    {
+        "id" : "5",
+        "cod" : "44067",
+        "descripcion" : "LED surtidos",
+        "descripcionCompleta" : "LED difuso surtido, para unidad mirar catálogo"
+    },
+    {
+        "id" : "6",
+        "cod" : "RG065",
+        "descripcion" : "Gas Butano",
+        "descripcionCompleta" : "descripcion completa"
+    },
+    {
+        "id" : "7",
+        "cod" : "RG022",
+        "descripcion" : "Union Pe al Pe",
+        "descripcionCompleta" : "descripcion completa"
+    },
+    {
+        "id" : "8",
+        "cod" : "14-345",
+        "descripcion" : "Union macho hembra",
+        "descripcionCompleta" : "Union marca Dicol con su material característico llamado polipropileno"
+    },
+    {
+        "id" : "9",
+        "cod" : "66301",
+        "descripcion" : "Valvula MAX",
+        "descripcionCompleta" : "Valvula para llenado de tanque elevado marca MAX"
+    },
+    {
+        "id" : "10",
+        "cod" : "CIT17",
+        "descripcion" : "Caja camara",
+        "descripcionCompleta" : "descripcion completa"
+    },
+    {
+        "id" : "11",
+        "cod" : "CIT18",
+        "descripcion" : "Caja canaleta",
+        "descripcionCompleta" : "descripcion completa"
+    },
+    {
+        "id" : "12",
+        "cod" : "PR001",
+        "descripcion" : "Perro de amarre",
+        "descripcionCompleta" : "Perro de amarre de 1/8"
+    },
+    {
+        "id" : "13",
+        "cod" : "HER04",
+        "descripcion" : "Plomada de punta",
+        "descripcionCompleta" : "Plomada"
+    },
+    {
+        "id" : "14",
+        "cod" : "HER07",
+        "descripcion" : "Plomada escalonada",
+        "descripcionCompleta" : "Plomada"
+    }
+]

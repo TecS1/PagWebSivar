@@ -1,0 +1,27 @@
+@import "./scss/_index.scss";
+
+.btn-wapp{
+    display: block;
+    width: 6.1vw;
+    height: auto;
+    position: fixed;
+    bottom: 1.875rem;
+    right: 0.875rem;
+    z-index: 100;
+    opacity: 0.7;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.btn-wapp:hover{
+    opacity: 1;
+}
+
+@include tablet{
+    .btn-wapp {
+        opacity: 1;
+        width: 4rem;
+    }
+}

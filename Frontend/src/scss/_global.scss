@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Norwester";
+    src: url("../Assets/fonts/norwester.otf") format("truetype");
+}
+
+h1{
+    font-family: "Norwester", sans-serif;
+}
+
+.anima-Entrada{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s;
+}
+
+.font-19{
+    font-size: 1.1875rem;
+}
+
+.genFont{
+    font-family: "Montserrat", sans-serif;
+}
+

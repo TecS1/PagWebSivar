@@ -1,0 +1,29 @@
+@import "../../scss/_index.scss";
+
+/*.carousel.h22{
+    //background-color: $azulPrincipal;
+    height: 22.125rem;
+}*/
+
+.c-inner{
+    display: flex;
+    align-items: center;
+}
+
+.test{
+    width: 100%;
+    height: 100%;
+}
+
+.test img{
+    object-fit: contain;
+    //width: 100%;
+}
+
+#color-indicator{
+    background-color: #000;
+}
+
+/*#carrusel1, #carrusel2{
+    height: 22.125rem;
+}*/

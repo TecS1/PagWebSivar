@@ -1,0 +1,71 @@
+@import "../../scss/_colors.scss";
+@import "../../scss/_mediaQueries.scss";
+
+.ctnUs{
+    position: relative;
+    padding: 1.12vw 3.69vw;
+    min-height: 40rem;
+}
+.titulo{
+    border-bottom: 4px solid $amarilloPrincipal;
+    h1{
+        color: $azulPrincipal;
+    }
+}
+
+.iframeContainer{
+    width: 100%;
+    height: 30vw;
+}
+
+#mapaSierra{
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+}
+
+#btn-submit{
+    background: $azulPrincipal;
+    width: inherit;
+}
+
+#btn-submit:disabled{
+    background: linear-gradient(270deg, #576b93, #7b828f);
+    cursor: not-allowed;
+}
+
+button.botonDis::after,button.botonDis::before{
+    background: transparent !important;
+}
+
+#mediaQ{
+    display: none;
+}
+
+@include tablet{
+    .font-19.p-3{
+        display: none;
+    }
+    
+    .col.montserratFont{
+        flex: 100%;
+        order: 2;
+    }
+
+    .f100{
+        width: 100%!important;
+    }
+
+    .iframeContainer{
+        height: 225px;
+    }
+
+    #mediaQ{
+        display: block;
+        margin: 0;
+    }
+
+    #mapaSierra{
+        height: 100%
+    }
+}
